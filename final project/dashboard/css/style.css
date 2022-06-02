@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*{
+  font-family: 'Kalam', cursive;
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+	background: #23242b;
+	color: #fff;
+}
+h1{
+	color:#0098a1;
+}
+.u-name {
+	font-size: 20px;
+	padding-left: 17px;
+}
+.u-name b {
+	color: #127b8e;
+}
+.header i {
+	font-size: 30px;
+	cursor: pointer;
+	color:#0098a1;
+}
+.header i:hover {
+	color: #127b8e;
+}
+.user-p {
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 25px;
+}
+.user-p img {
+	width: 100px;
+	border-radius: 50%;
+}
+.user-p h4 {
+	color: #ccc;
+	padding: 5px 0;
+
+}
+.side-bar {
+	width: 250px;
+	background: #262931;
+	min-height: 100vh;
+	transition: 500ms width;
+}
+.body {
+	display: flex;
+}
+.section-1 {
+	width: 100%;
+	background: url("../img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* background-color: #ccc; */
+}
+.section-1 h1 {
+	color:#0098a1;
+	font-size: 10px;
+}
+/* .section-1 p {
+	color: #127b8e;
+	font-size: 20px;
+	background: #fff;
+	padding: 7px;
+	border-radius: 5px;
+} */
+
+.side-bar ul {
+	margin-top: 20px;
+	list-style: none;
+}
+.side-bar ul li {
+	font-size: 16px;
+	padding: 15px 0px;
+	padding-left: 20px;
+	transition: 500ms background;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.side-bar ul li:hover {
+	background: #127b8e;
+}
+.side-bar ul li a {
+	text-decoration: none;
+	color: #eee;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+.side-bar ul li a i {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 23px;
+}
+#navbtn {
+	display: inline-block;
+	margin-left: 70px;
+	font-size: 20px;
+	transition: 500ms color;
+}
+#checkbox {
+	display: none;
+}
+#checkbox:checked ~ .body .side-bar {
+	width: 60px;
+}
+#checkbox:checked ~ .body .side-bar .user-p{
+	visibility: hidden;
+}
+#checkbox:checked ~ .body .side-bar a span{
+	display: none;
+}
+
+
+
+
+
+
+
+/* book */
+
+/* .section-1 html{
+	overflow-x: hidden;
+	font-size: 62.5%;
+  } */
+  
+  /* *{
+	  margin: 0;
+	  padding: 0;
+  } */
+  .section-1 .main_bg{
+	  background-image: url(bg.jpg);
+	  max-width: 1280px;
+	  height: 800px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  margin: 0 auto;
+  } 
+  .form{
+	  width: 650px;
+  }
+  
+ .form-text{
+	  text-align: center;
+	  margin: 0 0 40px 0;
+  }
+ .form-text h1 span img{
+	  margin: 0 10px;
+  
+  }
+ .form-text h1{
+	  color:white;
+	  font-family: 'Akaya Telivigala', cursive;
+	  font-size: 40px;
+	  margin-bottom: 20px;
+  }
+ .form-text p{
+	  color:white;
+	  font-family: 'Akaya Telivigala', cursive;
+	  font-size: large;
+  }
+  
+ .main-form div{
+	  margin: 10px 10px;
+	  width: 300px;
+	  display: inline-block;
+  }
+ .main-form div input {
+	  width: 100%;
+	  font-family: 'Akaya Telivigala', cursive;
+	  background: none;
+	  border: 1px solid #0098a1;
+	  font-size: 20px;
+	  color: white;
+	  outline: none;
+	  padding: 3px 0 3px 10px;
+	  margin-top: 10px;
+  }
+  
+  #people{
+	  color: white;
+	 
+  }
+
+  option{
+	background-color: #23242b;
+	
+}
+ .main-form div select{
+	  width: 104%;
+	  font-family: 'Akaya Telivigala', cursive;
+	  background: none;
+	  border: 1px solid #0098a1;
+	  font-size: 20px;
+	  color: #fff;
+	  outline: none;
+	  padding: 3px 0 3px 10px;
+	  margin-top: 10px;
+  }
+  .main-form div span{
+	  width: 100%;
+	  font-family: 'Akaya Telivigala', cursive;
+	  color: white;
+	  font-size: 25px;
+  }
+  
+  #submit{
+	  width: 100%;
+	  text-align: center;
+  }
+  #submit input{
+	  font-family: 'Akaya Telivigala', cursive;
+	  width: 200px;
+	  background-color: #0098a1 !important;
+	  color: white !important;
+	  transition: all .3s;
+  }
+  #submit input:hover{
+	  font-family: 'Akaya Telivigala', cursive;
+	  width: 200px;
+	  background-color: black !important;
+	  color: #fff !important;
+  }
+  #submit input:active{
+	  font-size: 19px;
+	  background-color: rgb(46, 20, 5) !important;
+	  color: #fff !important;
+  }
+  
+  
+  @media screen and (max-width:710px) {
+	  .main-form{
+		  text-align: center;
+	  }
+  }
+  
+  
+
+  /* tour */
+
+
+  .section-2 {
+	width: 100%;
+	background: url("../img/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* background-color: #ccc; */
+}
+
+
+
+/* table style */
+
+
+
+
+/* .content-table{
+	text-align: center;
+	padding-top: 20rem;
+	position: relative;
+	top: 30rem;
+	right: 10rem;
+  
+  } */
+  
+  .content-table {
+	text-align: center;
+	border-collapse: collapse;
+	 margin: 25px 0; 
+	font-size: 20px;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	position: relative;
+	top:-15rem;
+	right: 35px;
+	width: 500px;
+  }
+  
+  .content-table thead tr {
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+	font-size: 23px;
+  }
+  
+  .content-table th,
+  .content-table td {
+	padding: 14px 17px;
+  }
+  
+  .content-table tbody tr {
+	border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:nth-of-type(odd) {
+	background-color: #faf2f270;
+  }
+  
+  .content-table tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+  }
+  

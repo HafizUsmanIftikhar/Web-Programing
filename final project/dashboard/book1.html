@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>travel with us</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="../icons8airplane.png">
+</head>
+<body>
+	<input type="checkbox" id="checkbox">
+	<header class="header">
+		<h2 class="u-name"><b><h3>Admin</h3></b>
+			<label for="checkbox">
+				<i id="navbtn" class="fa fa-bars" aria-hidden="true"></i>
+			</label>
+		</h2>
+		<i class="fa fa-user" aria-hidden="true"></i>
+	</header>
+	<div class="body">
+		<nav class="side-bar">
+			<div class="user-p">
+				<img src="img/user.jpg">
+				<h4>usman</h4>
+			</div>
+			<ul>
+				<li>
+					<a href="#">
+						<i class="fa fa-desktop" aria-hidden="true"></i>
+						<span>Dashboard</span>
+					</a>
+				</li>
+				<li>
+					<a href="message.html">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						<span>Messages</span>
+					</a>
+				</li>
+				<li>
+					<a href="tour.html">
+						<i class="fa fa-table " aria-hidden="true"></i>
+						<span>tourlist</span>
+					</a>
+				</li>
+				<li>
+					<a href="deletetour.html">
+						<i class="fa fa-table" aria-hidden="true"></i>
+						<span>delete tour</span>
+					</a>
+				</li>
+				<li>
+					<a href="book1.html">
+						<i class="fa fa-book" aria-hidden="true"></i>
+						<span>book tour </span>
+					</a>
+				</li>
+
+				<li>
+					<a href="bookedtour.php">
+						<i class="fa fa-book" aria-hidden="true"></i>
+						<span>bookings </span>
+					</a>
+				</li>
+
+				<li>
+					<a href="../login.html">
+						<i class="fa fa-power-off" aria-hidden="true"></i>
+						<span>Logout</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<section class="section-1">
+       
+            
+            <div class="form">
+				<div class="form-text">
+					<h1><span><img src="../images/art-1.png" alt=""></span>Book Now <span><img src="../images/art-1.png"
+								alt=""></span></h1>
+					<p>Book your trip with us</p>
+				</div>
+				<div class="main-form">
+					<form action="booking.php" method="post">
+						<div>
+							<span>Your full name ?</span>
+							<input type="text" name="name" id="name" placeholder="Write your name here..." required>
+						</div>
+						<div>
+							<span>Your email address ?</span>
+							<input type="email" oninput="valid_email()" name="email" id="email"
+								placeholder="Write your email here..." required>
+							<p id="err" style="color: red;"></p>
+		
+						</div>
+						<div>
+							<!-- <---this is the select option--->
+							<span>How many people ?</span>
+							<select name="people" id="people" required>
+								<option value="">
+									<---People--->
+								</option>
+								<option value="1">1 People</option>
+								<option value="2">2 People</option>
+								<option value="3">3 People</option>
+								<option value="4">4 People</option>
+								<option value="5">5 People</option>
+								<option value="6">6 People</option>
+								<option value="7">7 People</option>
+								<option value="8">8 People</option>
+								<option value="9">9 People</option>
+							</select>
+		
+						</div>
+		
+						<div>
+							<span> Tour Place</span>
+							<input type="text" name="place" id="place" placeholder="Tour place" required>
+						</div>
+		
+						<div>
+							<span>What is the date ?</span>
+							<input type="date" name="date" id="date" placeholder="date" required>
+						</div>
+		
+							<div>
+								<span>What time ?</span>
+								<input type="text" name="time" id="time" placeholder="Time" required>
+							</div>
+		
+							<div> 
+							<span>ID Card number</span>
+							<input type="number" oninput="idnum()" name="Idcardnumber" id="id" placeholder="ID Card number"
+								required>
+							<p id="err2" style="color: red;"></p>
+						</div>
+		
+						<div>
+							<span>Your phone number ?</span>
+							<input type="number" oninput="num()" name="number" id="number"
+								placeholder="Write your number here..." required>
+							<p id="err1" style="color: red;"></p>
+						</div>
+						<div id="submit">
+							<input type="submit" value="SUBMIT" name="submit">
+						</div>
+		
+					</form>
+				</div>
+			</div>
+		
+ 
+		</section>
+	</div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

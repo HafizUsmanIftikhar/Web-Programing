@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with us</title>
+    <link rel="icon" href="icons8airplane.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <a href="#" class="logo"><img src="images/icons8.png" alt=""> travel <span>.</span></a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a data-scroll="home" href="#home" class="active">home</a></li>
+                <li><a data-scroll="feature" href="#feature">feature</a></li>
+                <li><a data-scroll="about" href="#about">about</a></li>
+                <li><a data-scroll="gallery" href="#gallery">gallery</a></li>
+                <li><a href="tourlist.php">Tour List</a></li>
+                <li><a data-scroll="review" href="#review">review</a></li>
+                <li><a data-scroll="contact" href="#contact">contact</a></li>
+                <li><a data-scroll="" href="login.html">Admin</a></li>
+                <li><a data-scroll="" href="booking.html">Booking</a></li>
+            </ul>
+        </nav>
+
+        <div class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="video">
+            <video src="images/vid-1.mp4" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+            <h1>Advanture is worthwhile, Discover new places with us</h1>
+            <p>We plan. You pack. !</p>
+        </div>
+
+        <div class="form-container">
+            <form action="search.php" method="post">
+
+                <h3>search your destination</h3>
+
+                <span>location</span>
+                <input type="text" name="location" placeholder="place you want to visit">
+
+                <span>leaving</span>
+                <input type="date" name="date">
+
+                <input type="submit" value="search">
+
+            </form>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- feature section starts  -->
+
+    <section class="feature" id="feature">
+
+        <h1 class="heading"><span>f</span>eatured <span>l</span>ocations</h1>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/des-4.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">Brazil</h3>
+                    <p>
+                        The factors which attract more tourists in Brazil are:
+                        Clean, white sand beaches.
+                        Attractive seacoasts.
+                        Beautiful islands.
+                        Beautiful orchards.
+                        Deep dense forests of Amazon.
+                        Various birds and animals.
+                        Eco-tourism.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                    <a href="booking.html"><button class="btn">Book now!</button></a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/des-6.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">Iceland</h3>
+                    <p>The landscape is nothing short of mystical. The endless series of snow-covered volcanoes, mountains and ice fields.The Nordic icy views are like nothing you'll see in the rest of the world.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="booking.html"><button class="btn">Book now!</button></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/card1.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">hawaii</h3>
+                    <p>Part of what makes the islands of Hawaii so special is the culture, a big drawcard to this South Pacific holiday destination. Much more than spectacular sunsets, beautiful beaches and wordclass surfing.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="booking.html"><button class="btn">Book now!</button></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/card2.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">egypt</h3>
+                    <p>Major tourist destinations include the millennia-old monuments in the Nile Valley.the Abu Simbel temples south of Aswan and the Karnak Temple Complex and Valley of the Kings near Luxor.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="booking.html"><button class="btn">Book now!</button></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="discount">-45%</span>
+                <img src="images/des-8.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">Pakistan</h3>
+                    <p>
+                        Pakistan have world most beautiful places for visit, specially at its best in northern areas of Pakistan. This part of the country is famous all around the world because of sky high mountains ,lush green valleys,beautiful lakes.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="booking.html"><button class="btn">Book now!</button></a>
+                </div>
+            </div>
+            
+            
+            <div class="card">
+                <img src="images/des-1.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">Thailand</h3>
+                    <p> Thailand is the only Southeast Asian country that was never colonized by an European country. In fact, in the Thai language, the name of the country is Prathet Thai which means “land of the free.” Very fitting!.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="booking.html"><button class="btn">Book now!</button></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/des-3.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">Alaska</h3>
+                    <p>In a wide world of wonderful destinations, attracting travelers. Visit Anchorage has to inspire people to travel, 1. Denali National Park · 2. Tracy Arm Fjord · 3. Kenai Fjords National Park · 4. Anchorage</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="booking.html"><button class="btn">Book now!</button></a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <!-- feature section ends -->
+
+
+
+    <!-- about section starts  -->
+
+
+    <section id="about" class="about">
+
+        <h1 class="heading"><span>a</span>bout <span>u</span>s</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Your time is important. When you choose Nordic Visitor, we dedicate time to organising a first-rate experience using our regional knowledge, so you can spend your own time however you please. And once you are travelling, each day of your personalised itinerary is set up to be memorable.!</p><br>
+                <p>Everything that a tourist may need when going abroad, in addition to the ticket.</p>
+                <a href="#"><button class="btn btn1">read more</button></a>
+                <a href="#"><button class="btn">get started</button></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <span>our gallery</span>
+            <h1>we record memories</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="images/img-1.jpg" alt="">
+                <span>travel spot</span>
+                <h3>iceland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="images/img-2.jpg" alt="">
+                <span>travel spot</span>
+                <h3>greenland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="images/img-3.jpg" alt="">
+                <span>travel spot</span>
+                <h3>alaska</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="images/img-4.jpg" alt="">
+                <span>travel spot</span>
+                <h3>thailand</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="images/img-5.jpg" alt="">
+                <span>travel spot</span>
+                <h3>brazil</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="images/img-6.jpg" alt="">
+                <span>travel spot</span>
+                <h3>maldive</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+                <img src="images/img-7.jpg" alt="">
+                <span>travel spot</span>
+                <h3>iceland</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+                <img src="images/img-8.jpg" alt="">
+                <span>travel spot</span>
+                <h3>alaska</h3>
+            </div>
+
+            <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+                <img src="images/img-9.jpg" alt="">
+                <span>travel spot</span>
+                <h3>maldive</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Having a clean, comfortable and friendly place to retreat to after a day of exploring is of the utmost importance when you travel. 
+                    That’s why we personally handpick every accommodation included in your itinerary, ensuring that each one meets our high standards when it comes to quality, location and character.!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>We create economic opportunities where food and beverage meet travel and hospitality. Our knowledge, tools and training help trade professionals !</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Relax and let someone else handle all the details of planning your trip. We take care of organising everything for you, from route planning to making bookings, so you save time and effort.
+                    You can look forward to your tour knowing that the experts have everything in hand.!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>An inspirational list of reasons why you should give in to your wanderlust and book an around the world trip today.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Fast travel often means that you plan a more effective and efficient trip overall, adding, deleting, and shaping your itinerary so it reflects your interests</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>
+                    Embracing new experiences, being spontaneous and showing curiosity about other cultures number among the top signs you're an adventurous person, according to new research.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+    
+    <!-- review section starts  -->
+
+    <section id="review" class="review">
+
+        <h1 class="heading"><span>r</span>eview</h1>
+
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Aila</h3>
+                    <p>We had a good experience with them. Everything was arranged and went pretty smoothly. Had a stress-free honeymoon!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fatima Fakhar </h3>
+                    <p>Had an unforgettable travel experience up north with my friends via Travel & Tours. I can’t recommend it enough specially to solo female travellers! We felt so safe and taken care of throughout the trip. From accommodations to meals and the tour, everything was so up to the mark! A very well organised trip indeed. 
+                        Looking forward to booking more trips with them InshaAllah</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sikandar khan</h3>
+                    <p>The management is very cooperative providing best service to its clients. It's been our 3rd tour with Usman travel and tours.  This year's trip to Hunza was a great joy. The environment was very safe and comfortable. Thumbs up 👍 for the team. Definitely recommended.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section id="contact" class="contact">
+
+        <h1 class="heading"><span>c</span>ontact <span>u</span>s</h1>
+
+
+        <div class="row">
+
+            <div class="contact-info">
+
+                <div class="box">
+                    <h3> <i class="fas fa-home"></i> address </h3>
+                    <p>Lahore <br>
+                        Pakistan, <br>
+                        54000.</p>
+                </div>
+
+                <div class="box">
+                    <h3> <i class="fas fa-envelope"></i> e-mail </h3>
+                    <p>xyz@gmail.com</p>
+                </div>
+
+                <div class="box">
+                    <h3> <i class="fas fa-phone"></i> phone </h3>
+                    <p>+123 4567 890</p>
+                </div>
+
+            </div>
+
+            <div class="contact-form-container">
+
+                <form action="message.php" method="post">
+
+                    <h3>get in touch</h3>
+
+                    <div class="inputBox">
+                        <input type="text" name="name"  placeholder="full name">
+                        <input type="email" name="email" placeholder="e-mail">
+                    </div>
+                    
+                     <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+                    <input type="submit" name="submit" value="message">
+                    <!-- <a class="submit" href="mailto:name@email.com">CONTACT ME</a> -->
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- contact section ends -->
+
+    <section class="newsletter">
+
+        <h1>sign up 20% discount</h1>
+
+        <form action="signup.php" method="post">
+            <input type="email" name="email" placeholder="enter your email">
+            <input type="submit" value="sign up">
+        </form>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="icons">
+
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-github"></a>
+
+        </div>
+
+    </section>
+
+
+    <!-- jquery cdn link  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
